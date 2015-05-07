@@ -2,7 +2,7 @@
 
 //から読み込む。https://のときにパスの変換回避
 
-```
+```html
     // OK
     <script src="//www.example.com/hoge.js"></script>
 
@@ -12,7 +12,7 @@
 
 ## HTMLの要素やプロパティはすべて小文字で記述する
 
-```
+```html
     <img src="demo.png" alt="Demo">
 ```
 
@@ -31,7 +31,7 @@
 9.  rel属性（省略可）
 
 
-```
+```html
     <img src="demo.png" width="400" height="200" id="demo" class="banner" alt="Demo">
 
     <a href="download.html" id="demo" class="btn" title="ダウンロード" target="_blank" rel="download">ダウンロード</a>
@@ -39,7 +39,7 @@
 
 ## 文字コードはUTF-8にする
 
-```
+```html
     <meta charset="utf-8">
 ```
 
@@ -47,7 +47,7 @@
 
 type="text/css"、type="text/javascript"です。
 
-```
+```html
     // OK
     <link href="//www.example.com/css/hoge.css" rel="stylesheet">
     <script src="//www.example.com/js/hoge.js"></script>

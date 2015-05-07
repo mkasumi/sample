@@ -37,7 +37,7 @@
 
 2種類ある
 
-```
+```less
 // 書き出しても残らない 開発用のメモ書きなど
 
 /* 書き出しても残る */
@@ -48,7 +48,7 @@
 
 モジュール単位で入れ子にして書きます。
 
-```
+```less
 .acms-form{
 	font-size: 1.4em;
 	select{
@@ -61,7 +61,7 @@
 
 .acms-form select + lable
 
-```
+```less
 .acms-form{
 	font-size: 1.4em;
 	select{
@@ -77,7 +77,7 @@
 
 .acms-form lable > input
 
-```
+```less
 .acms-form{
 	font-size: 1.4em;
 	lable{
@@ -93,7 +93,7 @@
 
 a:hover
 
-```
+```less
 a{
 	color: #333333;
 	&:hover{
@@ -106,7 +106,7 @@ a{
 
 メディアクエリしたいセレクタにネストする
 
-```
+```less
 .acms-form{
 	width: 100%;
 	@media screen and (max-width: 640px;){
@@ -127,7 +127,7 @@ mixin
 
 .mixin名（引数: 値, 引数: 値...）{ プロパティ }
 
-```
+```less
 .gradient(@color: #F5F5F5, @start: #EEEEEE, @stop: #FFFFFF) {
 	background: @color;
 	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, @start),color-stop(1, @stop));
@@ -160,7 +160,7 @@ mixin
 
 ### floor()：小数点を切り捨て
 
-```
+```less
 @width: 250px;
 
 .acms-form-width-medium{
@@ -172,7 +172,7 @@ mixin
 
 ### rgba()：カラーの16進数をrgbに変換
 
-```
+```less
 .acms-form input[type="text"]:focus{
 	box-shadow: rgba(#333333, 0.5); // rgba(51, 51, 51, 0.5);
 }
@@ -182,7 +182,7 @@ mixin
 -----
 
 ### 
-```
+```less
 // 明度
 lighten(@color, 10%);
 darken(@color, 10%);
