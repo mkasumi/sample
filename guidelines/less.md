@@ -27,7 +27,7 @@
 
 文字列に@をつける
 
-```css
+```less
 @color-link: #333333;
 @img-path: '../images/';
 ```

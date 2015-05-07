@@ -22,7 +22,7 @@
 3.  -o-
 4.  -ms-
 
-```
+```css
 -moz-border-radius: 4px;
 -webkit-border-radius: 4px;
 -o-border-radius: 4px;
@@ -37,7 +37,7 @@ border-radius: 4px;
 \#FFFFFFは#FFFに省略できるのですが、3桁に省略できないコードは6桁にします。  
 Fireworksは英語が大文字です。
 
-```
+```css
 // OK
 .hoge{
     color: #FFFFFF;
@@ -52,7 +52,7 @@ Fireworksは英語が大文字です。
 ## コメントの書き方
 
 ### 大見出し
-```
+```css
 /* ---------------
 コメント
 --------------- */
